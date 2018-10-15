@@ -1,7 +1,7 @@
 /*
     variableCount.hpp
 
-    Include file for variableCount()
+    Include file for function variableCount()
 */
 
 #ifndef INCLUDED_VARIABLECOUNT_HPP
