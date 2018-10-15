@@ -4,10 +4,10 @@
     Include file for variableCount()
 */
 
-#ifndef INCLUDED_FUNCTION_COUNT
-#define INCLUDED_FUNCTION_COUNT
+#ifndef INCLUDED_VARIABLECOUNT_HPP
+#define INCLUDED_VARIABLECOUNT_HPP
 
-// number of functions in the srcML file
+// number of variables in the srcML file
 int variableCount(const char* srcMLfile);
 
 #endif
