@@ -8,3 +8,11 @@ variableCount_u.o : variableCount_u.cpp variableCount.hpp
 
 variableCount.o : variableCount.cpp variableCount.hpp
 	g++ -I/usr/include/libxml2 -std=c++11 -c variableCount.cpp
+
+.PHONY: clean
+clean : 
+	rm -f variableCount.o variableCount_u.o variableCount_u
+
+.PHONY: run
+run : variableCount_u
+	./variableCount_u example.xml
